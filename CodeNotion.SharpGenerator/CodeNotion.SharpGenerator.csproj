@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Vit.Backoffice.Tests.SourceGeneration</RootNamespace>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.1" />
+    </ItemGroup>
+
+</Project>
